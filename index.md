@@ -2,24 +2,37 @@
 
 [*Numerical Analysis: Theory and Experiments*](http://bookstore.siam.org/ot161/) is a textbook on numerical analysis. Numerical methods are designed and implemented, and then they are analyzed through a combination of mathematical theory and numerical experimentation. Problem areas include interpolation, integration, linear systems, zero finding, and differential equations. Chebyshev methods are used early and often.
 
-This package is a library of MATLAB routines that accompany the book.
+This package is a library of numerical routines that accompany the book.
+
+## MATLAB versus Octave
+
+The [original package](https://github.com/briansutton/nate) contains MATLAB codes. This is a port to Octave.
 
 ## Installation
 
 The library is installed as follows:
-1. Download the package [nate-master.zip](https://github.com/briansutton/nate/archive/master.zip).
-1. Expand the zip file if it was not expanded automatically.
-1. Start MATLAB.
-1. Use the `pathtool` dialog to add the new package folder to the MATLAB path:
+1. Download the package [nate-octave.tar.gz](https://github.com/briansutton/nate-octave/nate-octave.tar.gz).
+1. Start Octave.
+1. Install the package:
    ```
-   >> pathtool
+   octave> pkg install nate-octave.tar.gz
+   ```
+   The full pathname must be provided if `nate-octave.tar.gz` is not located in the current working directory.
+1. Load the package:
+   ```
+   octave> pkg load nate-octave
    ```
 1. Verify that the library routines are available as follows:
    ```
-   >> nate
+   octave> nate
    Numerical Analysis: Theory and Experiments
    ```
-1. Set the Command Window preferences in MATLAB to `long` numeric format and `compact` numeric display.
+1. Set the numeric format to `long`:
+   ```
+   octave> format long
+   ```
+
+Steps 4-6 must be repeated each time Octave is restarted.
 
 ## Demonstration
 
