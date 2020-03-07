@@ -11,7 +11,7 @@ The [original package](https://github.com/briansutton/nate) contains MATLAB code
 ## Installation
 
 The library is installed as follows:
-1. Download the package [nate-octave.tar.gz](https://github.com/briansutton/nate-octave/nate-octave.tar.gz).
+1. Download the package [nate-octave.tar.gz](https://raw.githubusercontent.com/briansutton/nate-octave/master/nate-octave.tar.gz).
 1. Start Octave.
 1. Install the package:
    ```
