@@ -1,0 +1,9 @@
+Name: nate
+Version: 2020-03-07
+Date: 2020-03-07
+Author: Brian Sutton (bsutton@rmc.edu)
+Maintainer: Brian Sutton (bsutton@rmc.edu)
+Title: Numerical Analysis: Theory and Experiments
+Description: Routines accompanying the numerical analysis book Numerical
+ Analysis: Theory and Experiments.
+License: BSD 3-Clause

@@ -1,0 +1,104 @@
+nate >> Numerical Analysis: Theory and Experiments
+Part I: Computation
+ nate
+ iif
+ newfig
+ plotfun
+ polynomialeval
+ disptable
+ xlog
+ ylog
+ infnorm
+ ieee754
+Part II: Interpolation
+ baryweights
+ interpgen
+ plotsample
+ griduni
+ sampleuni
+ interpuni
+ plotpartition
+ plotrealpart
+ plotimagpart
+ plotfun3
+ rungecurve
+ gridcheb
+ samplecheb
+ interpcheb
+ gridchebpw
+ samplechebpw
+ interpchebpw
+ bernstein
+ evalmatrixgen
+ resamplematrixuni
+ resamplematrixcheb
+Part III: Integration
+ diffmatrixgen
+ intmatrixgen
+ definitegen
+ antiderivgen
+ indefinitegen
+ intmatrixuni
+ definiteuni
+ antiderivuni
+ indefiniteuni
+ intmatrixcheb
+ definitecheb
+ antiderivcheb
+ indefinitecheb
+Part IV: Systems of linear equations
+ backsubstitute
+ genopivot
+ gepp
+ lunopivot
+ lupp
+Part V: Linear differential equations
+ ivpl1gen
+ ivpl2gen
+ ivpl1uni
+ ivp1matuni
+ ivpl2uni
+ ivp2matuni
+ ivpl1cheb
+ ivp1matcheb
+ ivpl2cheb
+ ivp2matcheb
+ ivpl1conduni
+ ivpl1condcheb
+ ivpl2conduni
+ ivpl2condcheb
+Part VI: Zero finding
+ zerosgen
+ zerosuni
+ zeroscheb
+ newton
+Part VII: Nonlinear differential equations
+ ivpnl1gen
+ ivpnl2gen
+ ivpnl1uni
+ ivpnl2uni
+ ivpnl1conduni
+ ivpnl2conduni
+ ivpnl1chebpw
+ ivpnl2chebpw
+ ivpl1condchebpw
+ ivpnl1condchebpw
+ ivpl2condchebpw
+ ivpnl2condchebpw
+Private
+ natecheck
+ golden_
+ randpoints_
+ interp_
+ interpuni_
+ partition_
+ interpchebpw_
+ evalmatrix_
+ diffmatrixsquare_
+ diffmatrix_
+ intmatrix_
+ ivpl1_
+ ivpl2_
+ zeros_
+ ivpnl1_
+ ivpnl2_
