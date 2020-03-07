@@ -29,7 +29,7 @@ The library is installed as follows:
    ```
 1. Set the numeric format to `long`:
    ```
-   octave> format long
+   octave> format long g
    ```
 
 Steps 4-6 must be repeated each time Octave is restarted.
