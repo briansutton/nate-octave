@@ -45,13 +45,12 @@ for i = 1:m
   for j = 1:n
     h = subplot(m,n,(i-1)*n+j);
     ax(i,j) = h;
-    h.ColorOrder = [ 0     0.447 0.698 ;
-                     0.835 0.369 0     ;
-                     0     0.620 0.451 ;
-                     0.8   0.475 0.655 ];
+    set(h,'colorOrder',[ 0     0.447 0.698 ;
+                         0.835 0.369 0     ;
+                         0     0.620 0.451 ;
+                         0.8   0.475 0.655 ]);
     set(h,'defaultLineLineWidth',1.6);
-    set(h,'defaultParameterizedFunctionLineLineWidth',1.6);
-    h.FontSize = 14;
+    set(h,'fontSize',14);
     box on;
     hold on;
     legend show;

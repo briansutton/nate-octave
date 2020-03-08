@@ -39,10 +39,9 @@ if nargin<3
           ,'markersize',3*get(0,'defaultlinemarkersize'));
   % Setting color with linespec and then changing color to desired RGB
   % triplet prevents ColorOrderIndex from advancing in MATLAB R2017b.
-  h.MarkerEdgeColor = [0.3 0.3 0.3];
+  set(h,'markeredgecolor',[0.3 0.3 0.3]);
 else
   h = plot(xs(:),ys(:),varargin{:});
 end
-h.Annotation.LegendInformation.IconDisplayStyle = 'off';
 if nargout>0, varargout = { h }; end
 

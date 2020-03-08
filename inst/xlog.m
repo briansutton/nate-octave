@@ -13,7 +13,6 @@ function xlog
 %
 %   Copyright 2019 Brian Sutton
 
-ax = gca;
-ax.XScale = 'log';
+set(gca,'xScale','log');
 hold on;
 

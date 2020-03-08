@@ -12,7 +12,6 @@ function ylog
 %
 %   Copyright 2019 Brian Sutton
 
-ax = gca;
-ax.YScale = 'log';
+set(gca,'yScale','log');
 hold on;
 

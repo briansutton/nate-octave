@@ -24,7 +24,7 @@ if n>10000
   return;
 end
 if isempty(points)
-  points = rand(RandStream('mt19937ar','Seed',0),10000,1);
+  points = rand(10000,1);
 end
 x = unique([0; linspace(0,1-1/n,n-2)'+1/n*points(1:n-2,1); 1]);
 

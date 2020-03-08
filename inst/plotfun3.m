@@ -33,7 +33,8 @@ function varargout = plotfun3(fx,fy,fz,ab,varargin)
 narginchk(4,inf);
 natecheck('plotfun3',fx,fy,fz,ab);
 s = warning('off','MATLAB:fplot:NotVectorized');
-h = fplot3(fx,fy,fz,sort(ab),varargin{:});
+t = linspace(ab(1),ab(2),100);
+h = plot3(arrayfun(fx,t),arrayfun(fy,t),arrayfun(fz,t),varargin{:});
 [az,el] = view;
 if el==90, view(3); end
 warning(s);
